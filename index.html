@@ -33,7 +33,7 @@
     }
 
     /* =====================================================
-       HEADER (GIỮ NGUYÊN MÀU XANH #0661B6 VÀ LOGO CHUẨN)
+       HEADER (XANH CHUẨN #0661B6 & LOGO)
     ===================================================== */
     .topbar {
       width: 100%;
@@ -280,7 +280,7 @@
     .font-bold { font-weight: 600; }
 
     /* =====================================================
-       FOOTER (GIỮ MÀU XANH ĐỒNG BỘ #0661B6)
+       FOOTER
     ===================================================== */
     .footer {
       width: 100%;
@@ -337,9 +337,7 @@
 <body>
   <div class="app">
 
-    <!-- ===================================================
-         HEADER (XANH CHUẨN #0661B6)
-    ==================================================== -->
+    <!-- HEADER -->
     <header class="topbar">
       <div class="brand">
         <div class="seal">
@@ -357,9 +355,7 @@
       </div>
     </header>
 
-    <!-- ===================================================
-         MAIN DASHBOARD
-    ==================================================== -->
+    <!-- MAIN DASHBOARD -->
     <main class="main-wrap">
       <!-- 4 THẺ CHỈ SỐ KPI -->
       <div class="kpi-grid">
@@ -431,9 +427,7 @@
       </div>
     </main>
 
-    <!-- ===================================================
-         FOOTER
-    ==================================================== -->
+    <!-- FOOTER -->
     <footer class="footer">
       BAN QUẢN LÝ DỰ ÁN ĐẦU TƯ XÂY DỰNG CÁC CÔNG TRÌNH GIAO THÔNG VÀ NÔNG NGHIỆP ĐÀ NẴNG
       &nbsp;·&nbsp;
@@ -444,11 +438,9 @@
 
   </div>
 
-  <!-- =====================================================
-       JAVASCRIPT XỬ LÝ API & HIỂN THỊ
-  ====================================================== -->
+  <!-- JAVASCRIPT XỬ LÝ API & HIỂN THỊ -->
   <script>
-    const API_URL = "AKfycbxy9tehd_En75jcVayw7agbd7b6YW2IWnhFmoQUrWVU6hEVMKg4u0THnh_UomkP03JR";
+    const API_URL = "https://script.google.com/macros/s/AKfycbwARUs2KVgkLdsfVA5Bb29owND2W27Ixzm-jAW1p1_3GDYTuVAdFoRjcS_nd1BnrOEuCg/exec";
     let allData = [];
 
     const formatNumber = (val) => Number(val || 0).toLocaleString("vi-VN", { maximumFractionDigits: 2 });
